@@ -21,3 +21,5 @@ Stack.prototype = {
 		return this.length;
 	}
 };
+
+Stack.prototype.constructor = Stack;
