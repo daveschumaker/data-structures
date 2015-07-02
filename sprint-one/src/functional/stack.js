@@ -26,10 +26,10 @@ var Stack = function(){
   return someInstance;
 };
 
-
+/*
 var stackOfDishes = Stack();
 stackOfDishes.size();
 stackOfDishes.push(platter);
 stackOfDishes.push(plate);
 stackOfDishes.pop();
-
+*/
