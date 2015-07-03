@@ -19,7 +19,10 @@ var LinkedList = function(){
   };
 
   list.contains = function(target){
-
+    if (this.head.value === target || this.tail.value === target) {
+      return true;
+    }
+    return false;
   };
 
   //console.log(list); // Our debug code to display list in console
