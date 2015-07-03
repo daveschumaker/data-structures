@@ -9,7 +9,7 @@ var LinkedList = function(){
       this.head = Node(value);
     }
     this.tail = Node(value);
-    console.log(list); // Our debug code to display list in console
+    //console.log(list); // Our debug code to display list in console
   };
 
   list.removeHead = function(){
